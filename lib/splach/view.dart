@@ -79,7 +79,7 @@ class SplachScreen extends StatelessWidget {
               ),
               Spacer(flex: 2,),
               
-     g         MaterialButton(onPressed: (){
+              MaterialButton(onPressed: (){
                 Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (route) => FirstScreen(),), (route) => false,);
               },color: Colors.blueAccent,padding: EdgeInsetsGeometry.directional(top: 10,bottom: 10,start: 20,end: 20),shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.all(Radius.circular(15))),child: Text("Please, Click to Move to Tasks",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20)),),
               Spacer(flex: 2,)
